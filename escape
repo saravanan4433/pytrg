@@ -1,0 +1,1066 @@
+[33mcommit cb0312496cf2a80c0d59edb2336923f74897c6e7[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: saravanansaro <hrithiksaro@gmail.com>
+Date:   Tue Jun 26 17:28:16 2018 +0530
+
+    add all files
+
+[1mdiff --git a/27.py b/27.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d921f30[m
+[1m--- /dev/null[m
+[1m+++ b/27.py[m
+[36m@@ -0,0 +1,5 @@[m
+[32m+[m[32ma=input("enter the value=")[m
+[32m+[m[32mfor i in range(1,6):[m
+[32m+[m[32m    while(i>0)[m
+[32m+[m[32m a=a+i[m
+[32m+[m[32m print(a)[m
+[1mdiff --git a/ctof.py b/ctof.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6c1fd92[m
+[1m--- /dev/null[m
+[1m+++ b/ctof.py[m
+[36m@@ -0,0 +1,8 @@[m
+[32m+[m[32mdef tempconv(f):[m
+[32m+[m	[32mc=(f-32)*5/9[m
+[32m+[m	[32mprint(c)[m
+[32m+[m[32mdef tempconv(c)[m
+[32m+[m	[32mf=(c*9/5+32)[m
+[32m+[m	[32mprint(f)[m
+[32m+[m[41m	[m
+[32m+[m[32mtempconv(212[m
+\ No newline at end of file[m
+[1mdiff --git a/ctof2.py b/ctof2.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..32f25b3[m
+[1m--- /dev/null[m
+[1m+++ b/ctof2.py[m
+[36m@@ -0,0 +1,3 @@[m
+[32m+[m[32mdef ctof(c):[m
+[32m+[m[32m    print((c*9)/5+32)[m
+[32m+[m[32mctof(100)[m
+[1mdiff --git a/dict26.py b/dict26.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c953e9f[m
+[1m--- /dev/null[m
+[1m+++ b/dict26.py[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32mdict={"name":"orange","weight":"12kg","box":"5"};[m
+[32m+[m[32mprint(dict["name"])[m
+[1mdiff --git a/exafor.py b/exafor.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f21b1b0[m
+[1m--- /dev/null[m
+[1m+++ b/exafor.py[m
+[36m@@ -0,0 +1,7 @@[m
+[32m+[m[32ma=27[m
+[32m+[m[32mif(a%2==0):[m
+[32m+[m[32m print("number is divided by 2")[m
+[32m+[m[32melif(a%3==0):[m
+[32m+[m[32m print("number is divide by 3")[m
+[32m+[m[32melse:[m
+[32m+[m[32m print("number is not divided by 2 and 3")[m
+[1mdiff --git a/examifelse.py b/examifelse.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..76f2f42[m
+[1m--- /dev/null[m
+[1m+++ b/examifelse.py[m
+[36m@@ -0,0 +1,8 @@[m
+[32m+[m[32muser_define="enter any number:"[m
+[32m+[m[32ma=user_define;[m
+[32m+[m[32mif(a/2):[m
+[32m+[m[32m print("given number is divide by 2")[m
+[32m+[m[32melif(a/3):[m
+[32m+[m[32m print("give number is divide by 3")[m
+[32m+[m[32melse:[m
+[32m+[m[32m print("given number is not divide by 2 and 3")[m
+[1mdiff --git a/exdict26.py b/exdict26.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7483a46[m
+[1m--- /dev/null[m
+[1m+++ b/exdict26.py[m
+[36m@@ -0,0 +1,9 @@[m
+[32m+[m[32mdict={"variety":"fruits","name":"orange","weight":"10kg","number of box":"4"};[m
+[32m+[m[32mprint(dict["variety"])[m
+[32m+[m[32mprint(dict["name"])[m
+[32m+[m[32mprint(dict["weight"])[m
+[32m+[m[32mprint(dict["number of box"])[m
+[32m+[m[32mprint("length",len(dict))[m
+[32m+[m[32mprint("end length",len(dict))[m
+[32m+[m[32mdict=dict1.copy()[m
+[32m+[m[32mprint(dict1[])[m
+[1mdiff --git a/exfor27.py b/exfor27.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..fd6f672[m
+[1m--- /dev/null[m
+[1m+++ b/exfor27.py[m
+[36m@@ -0,0 +1,4 @@[m
+[32m+[m[32mi=0[m
+[32m+[m[32mfor n in range(0,45):[m
+[32m+[m[32m    i=i+n[m
+[32m+[m[32m    print(i)[m
+[1mdiff --git a/exfun27.py b/exfun27.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7029bac[m
+[1m--- /dev/null[m
+[1m+++ b/exfun27.py[m
+[36m@@ -0,0 +1,3 @@[m
+[32m+[m[32mdef functionname(saro):[m
+[32m+[m[32m "climate is very cool today"[m
+[32m+[m[32mprint(saro)[m
+[1mdiff --git a/exlist30.py b/exlist30.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..59e9607[m
+[1m--- /dev/null[m
+[1m+++ b/exlist30.py[m
+[36m@@ -0,0 +1,77 @@[m
+[32m+[m[32m##LIST[m
+[32m+[m[32m##list=[5,6,7,8,2,4,5,7][m
+[32m+[m[32m##print(list)[m
+[32m+[m[32m##a=list.index(8)[m
+[32m+[m[32m##print(a)[m
+[32m+[m[32m##b=list.count(5)[m
+[32m+[m[32m##print(b)[m
+[32m+[m[32m##c=list.pop(3)[m
+[32m+[m[32m##print(c)[m
+[32m+[m[32m##d=list.remove(6)[m
+[32m+[m[32m##print(d)[m
+[32m+[m
+[32m+[m[32mlist=["s","a","r","o","m","a","x","y","r","z"][m
+[32m+[m[32mprint(list)[m
+[32m+[m[32ma=list.index("a")[m
+[32m+[m[32mprint(a)[m
+[32m+[m[32mb=list.count("a")[m
+[32m+[m[32mprint(b)[m
+[32m+[m[32mprint(list.pop(3))[m
+[32m+[m[32mprint(list)[m
+[32m+[m[32me=list.remove("r")[m
+[32m+[m[32mprint(list)[m
+[32m+[m[32mprint(list.append("j"))[m
+[32m+[m[32mprint(list)[m
+[32m+[m[32mprint(list.sort())[m
+[32m+[m[32mprint(list)[m
+[32m+[m[32m##[m
+[32m+[m[32m##list=[1,2,3,4,5,9,4,7,45,23,67][m
+[32m+[m[32m##print(list)[m
+[32m+[m[32m##print(list.pop(6))[m
+[32m+[m[32m##print(list)[m
+[32m+[m[32m##print(list.remove(9))[m
+[32m+[m[32m##print(list)[m
+[32m+[m[32m####print(list.clear())[m
+[32m+[m[32m####print(list)[m
+[32m+[m[32m##print(list.reverse())[m
+[32m+[m[32m##print(list)[m
+[32m+[m[32m##print(list.sort())[m
+[32m+[m[32m##print(list)[m
+[32m+[m
+[32m+[m
+[32m+[m[32m##set[m
+[32m+[m[32mset={1,2,7,6,5,8,9,6}[m
+[32m+[m[32mset1={5,6,7,2,1,10,12}[m
+[32m+[m[32ma=(set) & (set1)[m
+[32m+[m[32mprint(a)[m
+[32m+[m[32mb=(set) | (set1)[m
+[32m+[m[32mprint(b)[m
+[32m+[m[32mc=(set) - (set1)[m
+[32m+[m[32mprint(c)[m
+[32m+[m[32md=(set1) - (set)[m
+[32m+[m[32mprint(d)[m
+[32m+[m
+[32m+[m[32m##FUNCTION[m
+[32m+[m[32m##def add(x,z):[m
+[32m+[m[32m##    a=x-z[m
+[32m+[m[32m##    return a[m
+[32m+[m[32m##e=float(input("enter the value="))[m
+[32m+[m[32m##d=float(input("enter the value="))[m
+[32m+[m[32m##print(add(e,d))[m
+[32m+[m
+[32m+[m
+[32m+[m[32mlist=[1,5,6,5,8,9][m
+[32m+[m[32mlist1=[3,5,7,4][m
+[32m+[m[32mb=int(input("enter the value"))[m
+[32m+[m[32mc=int(input("enter the value"))[m
+[32m+[m[32ma=(list.append(b))[m
+[32m+[m[32md=(list1.append(c))[m
+[32m+[m[32mprint(list)[m
+[32m+[m[32mprint(list1)[m
+[32m+[m[32mdef add(b,c,z):[m
+[32m+[m[32m x=b+c+z[m
+[32m+[m[32m return x[m
+[32m+[m[32mz=int(input("enter the value"))[m
+[32m+[m[32mprint(list.append(z))[m
+[32m+[m[32mprint(add(b,c,z))[m
+[32m+[m
+[1mdiff --git a/file.py b/file.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0e87673[m
+[1m--- /dev/null[m
+[1m+++ b/file.py[m
+[36m@@ -0,0 +1,3 @@[m
+[32m+[m[32ms=open(r"C:\Users\Sara\Desktop\saro.txt")[m
+[32m+[m[32mfor a in s:[m
+[32m+[m[32m  print(a)[m
+[1mdiff --git a/fun.py b/fun.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2bd704c[m
+[1m--- /dev/null[m
+[1m+++ b/fun.py[m
+[36m@@ -0,0 +1,15 @@[m
+[32m+[m[32mdef newline():[m
+[32m+[m	[32mprint()[m
+[32m+[m[32mprint("first line")[m
+[32m+[m[32mnewline()[m
+[32m+[m[32mprint("second line")[m
+[32m+[m
+[32m+[m[32mdef threeline():[m
+[32m+[m	[32mnewline()[m
+[32m+[m	[32mnewline()[m
+[32m+[m	[32mnewline()[m
+[32m+[m[32mprint("first line")[m
+[32m+[m[32mthreeline()[m
+[32m+[m[32mprint("second line")[m
+[32m+[m
+[32m+[m[41m [m
+\ No newline at end of file[m
+[1mdiff --git a/fun29.py b/fun29.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..74b40f7[m
+[1m--- /dev/null[m
+[1m+++ b/fun29.py[m
+[36m@@ -0,0 +1,627 @@[m
+[32m+[m[32mPython 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 16:07:46) [MSC v.1900 32 bit (Intel)] on win32[m
+[32m+[m[32mType "copyright", "credits" or "license()" for more information.[m
+[32m+[m[32m>>> a="hello world!"[m
+[32m+[m[32m>>> a[0:4][m
+[32m+[m[32m'hell'[m
+[32m+[m[32m>>> a[0:2:4][m
+[32m+[m[32m'h'[m
+[32m+[m[32m>>> a[0:4:2][m
+[32m+[m[32m'hl'[m
+[32m+[m[32m>>> a[0:4:3][m
+[32m+[m[32m'hl'[m
+[32m+[m[32m>>> a[:][m
+[32m+[m[32m'hello world!'[m
+[32m+[m[32m>>> a[::-1][m
+[32m+[m[32m'!dlrow olleh'[m
+[32m+[m[32m>>> '!dlrow olleh'[m
+[32m+[m[32m'!dlrow olleh'[m
+[32m+[m[32m>>> "hello worlg"[::-1}[m
+[32m+[m[32mSyntaxError: invalid syntax[m
+[32m+[m[32m>>> "hello world"[::-1][m
+[32m+[m[32m'dlrow olleh'[m
+[32m+[m[32m>>> import sys[m
+[32m+[m[32m>>> print(sys.prefix)[m
+[32m+[m[32mC:\Users\Sara\AppData\Local\Programs\Python\Python36-32[m
+[32m+[m[32m>>> import random[m
+[32m+[m[32m>>> random randint(12)[m
+[32m+[m[32mSyntaxError: invalid syntax[m
+[32m+[m[32m>>> random.randint(1,45)[m
+[32m+[m[32m36[m
+[32m+[m[32m>>> random.randint(1,100)[m
+[32m+[m[32m44[m
+[32m+[m[32m>>> dir(random)[m
+[32m+[m[32m['BPF', 'LOG4', 'NV_MAGICCONST', 'RECIP_BPF', 'Random', 'SG_MAGICCONST', 'SystemRandom', 'TWOPI', '_BuiltinMethodType', '_MethodType', '_Sequence', '_Set', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_acos', '_bisect', '_ceil', '_cos', '_e', '_exp', '_inst', '_itertools', '_log', '_pi', '_random', '_sha512', '_sin', '_sqrt', '_test', '_test_generator', '_urandom', '_warn', 'betavariate', 'choice', 'choices', 'expovariate', 'gammavariate', 'gauss', 'getrandbits', 'getstate', 'lognormvariate', 'normalvariate', 'paretovariate', 'randint', 'random', 'randrange', 'sample', 'seed', 'setstate', 'shuffle', 'triangular', 'uniform', 'vonmisesvariate', 'weibullvariate'][m
+[32m+[m[32m>>> help(random)[m
+[32m+[m[32mHelp on module random:[m
+[32m+[m
+[32m+[m[32mNAME[m
+[32m+[m[32m    random - Random variable generators.[m
+[32m+[m
+[32m+[m[32mDESCRIPTION[m
+[32m+[m[32m        integers[m
+[32m+[m[32m        --------[m
+[32m+[m[32m               uniform within range[m
+[32m+[m[41m    [m
+[32m+[m[32m        sequences[m
+[32m+[m[32m        ---------[m
+[32m+[m[32m               pick random element[m
+[32m+[m[32m               pick random sample[m
+[32m+[m[32m               pick weighted random sample[m
+[32m+[m[32m               generate random permutation[m
+[32m+[m[41m    [m
+[32m+[m[32m        distributions on the real line:[m
+[32m+[m[32m        ------------------------------[m
+[32m+[m[32m               uniform[m
+[32m+[m[32m               triangular[m
+[32m+[m[32m               normal (Gaussian)[m
+[32m+[m[32m               lognormal[m
+[32m+[m[32m               negative exponential[m
+[32m+[m[32m               gamma[m
+[32m+[m[32m               beta[m
+[32m+[m[32m               pareto[m
+[32m+[m[32m               Weibull[m
+[32m+[m[41m    [m
+[32m+[m[32m        distributions on the circle (angles 0 to 2pi)[m
+[32m+[m[32m        ---------------------------------------------[m
+[32m+[m[32m               circular uniform[m
+[32m+[m[32m               von Mises[m
+[32m+[m[41m    [m
+[32m+[m[32m    General notes on the underlying Mersenne Twister core generator:[m
+[32m+[m[41m    [m
+[32m+[m[32m    * The period is 2**19937-1.[m
+[32m+[m[32m    * It is one of the most extensively tested generators in existence.[m
+[32m+[m[32m    * The random() method is implemented in C, executes in a single Python step,[m
+[32m+[m[32m      and is, therefore, threadsafe.[m
+[32m+[m
+[32m+[m[32mCLASSES[m
+[32m+[m[32m    _random.Random(builtins.object)[m
+[32m+[m[32m        Random[m
+[32m+[m[32m            SystemRandom[m
+[32m+[m[41m    [m
+[32m+[m[32m    class Random(_random.Random)[m
+[32m+[m[32m     |  Random number generator base class used by bound module functions.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  Used to instantiate instances of Random to get generators that don't[m
+[32m+[m[32m     |  share state.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  Class Random can also be subclassed if you want to use a different basic[m
+[32m+[m[32m     |  generator of your own devising: in that case, override the following[m
+[32m+[m[32m     |  methods:  random(), seed(), getstate(), and setstate().[m
+[32m+[m[32m     |  Optionally, implement a getrandbits() method so that randrange()[m
+[32m+[m[32m     |  can cover arbitrarily large ranges.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  Method resolution order:[m
+[32m+[m[32m     |      Random[m
+[32m+[m[32m     |      _random.Random[m
+[32m+[m[32m     |      builtins.object[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  Methods defined here:[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  __getstate__(self)[m
+[32m+[m[32m     |      # Issue 17489: Since __reduce__ was defined to fix #759889 this is no[m
+[32m+[m[32m     |      # longer called; we leave it here because it has been here since random was[m
+[32m+[m[32m     |      # rewritten back in 2001 and why risk breaking something.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  __init__(self, x=None)[m
+[32m+[m[32m     |      Initialize an instance.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      Optional argument x controls seeding, as for Random.seed().[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  __reduce__(self)[m
+[32m+[m[32m     |      helper for pickle[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  __setstate__(self, state)[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  betavariate(self, alpha, beta)[m
+[32m+[m[32m     |      Beta distribution.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      Conditions on the parameters are alpha > 0 and beta > 0.[m
+[32m+[m[32m     |      Returned values range between 0 and 1.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  choice(self, seq)[m
+[32m+[m[32m     |      Choose a random element from a non-empty sequence.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  choices(self, population, weights=None, *, cum_weights=None, k=1)[m
+[32m+[m[32m     |      Return a k sized list of population elements chosen with replacement.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      If the relative weights or cumulative weights are not specified,[m
+[32m+[m[32m     |      the selections are made with equal probability.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  expovariate(self, lambd)[m
+[32m+[m[32m     |      Exponential distribution.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      lambd is 1.0 divided by the desired mean.  It should be[m
+[32m+[m[32m     |      nonzero.  (The parameter would be called "lambda", but that is[m
+[32m+[m[32m     |      a reserved word in Python.)  Returned values range from 0 to[m
+[32m+[m[32m     |      positive infinity if lambd is positive, and from negative[m
+[32m+[m[32m     |      infinity to 0 if lambd is negative.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  gammavariate(self, alpha, beta)[m
+[32m+[m[32m     |      Gamma distribution.  Not the gamma function![m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      Conditions on the parameters are alpha > 0 and beta > 0.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      The probability distribution function is:[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |                  x ** (alpha - 1) * math.exp(-x / beta)[m
+[32m+[m[32m     |        pdf(x) =  --------------------------------------[m
+[32m+[m[32m     |                    math.gamma(alpha) * beta ** alpha[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  gauss(self, mu, sigma)[m
+[32m+[m[32m     |      Gaussian distribution.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      mu is the mean, and sigma is the standard deviation.  This is[m
+[32m+[m[32m     |      slightly faster than the normalvariate() function.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      Not thread-safe without a lock around calls.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  getstate(self)[m
+[32m+[m[32m     |      Return internal state; can be passed to setstate() later.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  lognormvariate(self, mu, sigma)[m
+[32m+[m[32m     |      Log normal distribution.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      If you take the natural logarithm of this distribution, you'll get a[m
+[32m+[m[32m     |      normal distribution with mean mu and standard deviation sigma.[m
+[32m+[m[32m     |      mu can have any value, and sigma must be greater than zero.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  normalvariate(self, mu, sigma)[m
+[32m+[m[32m     |      Normal distribution.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      mu is the mean, and sigma is the standard deviation.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  paretovariate(self, alpha)[m
+[32m+[m[32m     |      Pareto distribution.  alpha is the shape parameter.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  randint(self, a, b)[m
+[32m+[m[32m     |      Return random integer in range [a, b], including both end points.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  randrange(self, start, stop=None, step=1, _int=<class 'int'>)[m
+[32m+[m[32m     |      Choose a random item from range(start, stop[, step]).[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      This fixes the problem with randint() which includes the[m
+[32m+[m[32m     |      endpoint; in Python this is usually not what you want.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  sample(self, population, k)[m
+[32m+[m[32m     |      Chooses k unique random elements from a population sequence or set.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      Returns a new list containing elements from the population while[m
+[32m+[m[32m     |      leaving the original population unchanged.  The resulting list is[m
+[32m+[m[32m     |      in selection order so that all sub-slices will also be valid random[m
+[32m+[m[32m     |      samples.  This allows raffle winners (the sample) to be partitioned[m
+[32m+[m[32m     |      into grand prize and second place winners (the subslices).[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      Members of the population need not be hashable or unique.  If the[m
+[32m+[m[32m     |      population contains repeats, then each occurrence is a possible[m
+[32m+[m[32m     |      selection in the sample.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      To choose a sample in a range of integers, use range as an argument.[m
+[32m+[m[32m     |      This is especially fast and space efficient for sampling from a[m
+[32m+[m[32m     |      large population:   sample(range(10000000), 60)[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  seed(self, a=None, version=2)[m
+[32m+[m[32m     |      Initialize internal state from hashable object.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      None or no argument seeds from current time or from an operating[m
+[32m+[m[32m     |      system specific randomness source if available.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      If *a* is an int, all bits are used.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      For version 2 (the default), all of the bits are used if *a* is a str,[m
+[32m+[m[32m     |      bytes, or bytearray.  For version 1 (provided for reproducing random[m
+[32m+[m[32m     |      sequences from older versions of Python), the algorithm for str and[m
+[32m+[m[32m     |      bytes generates a narrower range of seeds.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  setstate(self, state)[m
+[32m+[m[32m     |      Restore internal state from object returned by getstate().[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  shuffle(self, x, random=None)[m
+[32m+[m[32m     |      Shuffle list x in place, and return None.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      Optional argument random is a 0-argument function returning a[m
+[32m+[m[32m     |      random float in [0.0, 1.0); if it is the default None, the[m
+[32m+[m[32m     |      standard random.random will be used.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  triangular(self, low=0.0, high=1.0, mode=None)[m
+[32m+[m[32m     |      Triangular distribution.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      Continuous distribution bounded by given lower and upper limits,[m
+[32m+[m[32m     |      and having a given mode value in-between.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      http://en.wikipedia.org/wiki/Triangular_distribution[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  uniform(self, a, b)[m
+[32m+[m[32m     |      Get a random number in the range [a, b) or [a, b] depending on rounding.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  vonmisesvariate(self, mu, kappa)[m
+[32m+[m[32m     |      Circular data distribution.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      mu is the mean angle, expressed in radians between 0 and 2*pi, and[m
+[32m+[m[32m     |      kappa is the concentration parameter, which must be greater than or[m
+[32m+[m[32m     |      equal to zero.  If kappa is equal to zero, this distribution reduces[m
+[32m+[m[32m     |      to a uniform random angle over the range 0 to 2*pi.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  weibullvariate(self, alpha, beta)[m
+[32m+[m[32m     |      Weibull distribution.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      alpha is the scale parameter and beta is the shape parameter.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  ----------------------------------------------------------------------[m
+[32m+[m[32m     |  Data descriptors defined here:[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  __dict__[m
+[32m+[m[32m     |      dictionary for instance variables (if defined)[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  __weakref__[m
+[32m+[m[32m     |      list of weak references to the object (if defined)[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  ----------------------------------------------------------------------[m
+[32m+[m[32m     |  Data and other attributes defined here:[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  VERSION = 3[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  ----------------------------------------------------------------------[m
+[32m+[m[32m     |  Methods inherited from _random.Random:[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  __getattribute__(self, name, /)[m
+[32m+[m[32m     |      Return getattr(self, name).[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  __new__(*args, **kwargs) from builtins.type[m
+[32m+[m[32m     |      Create and return a new object.  See help(type) for accurate signature.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  getrandbits(...)[m
+[32m+[m[32m     |      getrandbits(k) -> x.  Generates an int with k random bits.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  random(...)[m
+[32m+[m[32m     |      random() -> x in the interval [0, 1).[m
+[32m+[m[41m    [m
+[32m+[m[32m    class SystemRandom(Random)[m
+[32m+[m[32m     |  Alternate random number generator using sources provided[m
+[32m+[m[32m     |  by the operating system (such as /dev/urandom on Unix or[m
+[32m+[m[32m     |  CryptGenRandom on Windows).[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |   Not available on all systems (see os.urandom() for details).[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  Method resolution order:[m
+[32m+[m[32m     |      SystemRandom[m
+[32m+[m[32m     |      Random[m
+[32m+[m[32m     |      _random.Random[m
+[32m+[m[32m     |      builtins.object[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  Methods defined here:[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  getrandbits(self, k)[m
+[32m+[m[32m     |      getrandbits(k) -> x.  Generates an int with k random bits.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  getstate = _notimplemented(self, *args, **kwds)[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  random(self)[m
+[32m+[m[32m     |      Get the next random number in the range [0.0, 1.0).[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  seed(self, *args, **kwds)[m
+[32m+[m[32m     |      Stub method.  Not used for a system random number generator.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  setstate = _notimplemented(self, *args, **kwds)[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  ----------------------------------------------------------------------[m
+[32m+[m[32m     |  Methods inherited from Random:[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  __getstate__(self)[m
+[32m+[m[32m     |      # Issue 17489: Since __reduce__ was defined to fix #759889 this is no[m
+[32m+[m[32m     |      # longer called; we leave it here because it has been here since random was[m
+[32m+[m[32m     |      # rewritten back in 2001 and why risk breaking something.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  __init__(self, x=None)[m
+[32m+[m[32m     |      Initialize an instance.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      Optional argument x controls seeding, as for Random.seed().[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  __reduce__(self)[m
+[32m+[m[32m     |      helper for pickle[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  __setstate__(self, state)[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  betavariate(self, alpha, beta)[m
+[32m+[m[32m     |      Beta distribution.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      Conditions on the parameters are alpha > 0 and beta > 0.[m
+[32m+[m[32m     |      Returned values range between 0 and 1.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  choice(self, seq)[m
+[32m+[m[32m     |      Choose a random element from a non-empty sequence.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  choices(self, population, weights=None, *, cum_weights=None, k=1)[m
+[32m+[m[32m     |      Return a k sized list of population elements chosen with replacement.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      If the relative weights or cumulative weights are not specified,[m
+[32m+[m[32m     |      the selections are made with equal probability.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  expovariate(self, lambd)[m
+[32m+[m[32m     |      Exponential distribution.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      lambd is 1.0 divided by the desired mean.  It should be[m
+[32m+[m[32m     |      nonzero.  (The parameter would be called "lambda", but that is[m
+[32m+[m[32m     |      a reserved word in Python.)  Returned values range from 0 to[m
+[32m+[m[32m     |      positive infinity if lambd is positive, and from negative[m
+[32m+[m[32m     |      infinity to 0 if lambd is negative.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  gammavariate(self, alpha, beta)[m
+[32m+[m[32m     |      Gamma distribution.  Not the gamma function![m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      Conditions on the parameters are alpha > 0 and beta > 0.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      The probability distribution function is:[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |                  x ** (alpha - 1) * math.exp(-x / beta)[m
+[32m+[m[32m     |        pdf(x) =  --------------------------------------[m
+[32m+[m[32m     |                    math.gamma(alpha) * beta ** alpha[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  gauss(self, mu, sigma)[m
+[32m+[m[32m     |      Gaussian distribution.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      mu is the mean, and sigma is the standard deviation.  This is[m
+[32m+[m[32m     |      slightly faster than the normalvariate() function.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      Not thread-safe without a lock around calls.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  lognormvariate(self, mu, sigma)[m
+[32m+[m[32m     |      Log normal distribution.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      If you take the natural logarithm of this distribution, you'll get a[m
+[32m+[m[32m     |      normal distribution with mean mu and standard deviation sigma.[m
+[32m+[m[32m     |      mu can have any value, and sigma must be greater than zero.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  normalvariate(self, mu, sigma)[m
+[32m+[m[32m     |      Normal distribution.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      mu is the mean, and sigma is the standard deviation.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  paretovariate(self, alpha)[m
+[32m+[m[32m     |      Pareto distribution.  alpha is the shape parameter.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  randint(self, a, b)[m
+[32m+[m[32m     |      Return random integer in range [a, b], including both end points.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  randrange(self, start, stop=None, step=1, _int=<class 'int'>)[m
+[32m+[m[32m     |      Choose a random item from range(start, stop[, step]).[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      This fixes the problem with randint() which includes the[m
+[32m+[m[32m     |      endpoint; in Python this is usually not what you want.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  sample(self, population, k)[m
+[32m+[m[32m     |      Chooses k unique random elements from a population sequence or set.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      Returns a new list containing elements from the population while[m
+[32m+[m[32m     |      leaving the original population unchanged.  The resulting list is[m
+[32m+[m[32m     |      in selection order so that all sub-slices will also be valid random[m
+[32m+[m[32m     |      samples.  This allows raffle winners (the sample) to be partitioned[m
+[32m+[m[32m     |      into grand prize and second place winners (the subslices).[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      Members of the population need not be hashable or unique.  If the[m
+[32m+[m[32m     |      population contains repeats, then each occurrence is a possible[m
+[32m+[m[32m     |      selection in the sample.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      To choose a sample in a range of integers, use range as an argument.[m
+[32m+[m[32m     |      This is especially fast and space efficient for sampling from a[m
+[32m+[m[32m     |      large population:   sample(range(10000000), 60)[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  shuffle(self, x, random=None)[m
+[32m+[m[32m     |      Shuffle list x in place, and return None.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      Optional argument random is a 0-argument function returning a[m
+[32m+[m[32m     |      random float in [0.0, 1.0); if it is the default None, the[m
+[32m+[m[32m     |      standard random.random will be used.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  triangular(self, low=0.0, high=1.0, mode=None)[m
+[32m+[m[32m     |      Triangular distribution.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      Continuous distribution bounded by given lower and upper limits,[m
+[32m+[m[32m     |      and having a given mode value in-between.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      http://en.wikipedia.org/wiki/Triangular_distribution[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  uniform(self, a, b)[m
+[32m+[m[32m     |      Get a random number in the range [a, b) or [a, b] depending on rounding.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  vonmisesvariate(self, mu, kappa)[m
+[32m+[m[32m     |      Circular data distribution.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      mu is the mean angle, expressed in radians between 0 and 2*pi, and[m
+[32m+[m[32m     |      kappa is the concentration parameter, which must be greater than or[m
+[32m+[m[32m     |      equal to zero.  If kappa is equal to zero, this distribution reduces[m
+[32m+[m[32m     |      to a uniform random angle over the range 0 to 2*pi.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  weibullvariate(self, alpha, beta)[m
+[32m+[m[32m     |      Weibull distribution.[m
+[32m+[m[32m     |[m[41m      [m
+[32m+[m[32m     |      alpha is the scale parameter and beta is the shape parameter.[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  ----------------------------------------------------------------------[m
+[32m+[m[32m     |  Data descriptors inherited from Random:[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  __dict__[m
+[32m+[m[32m     |      dictionary for instance variables (if defined)[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  __weakref__[m
+[32m+[m[32m     |      list of weak references to the object (if defined)[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  ----------------------------------------------------------------------[m
+[32m+[m[32m     |  Data and other attributes inherited from Random:[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  VERSION = 3[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  ----------------------------------------------------------------------[m
+[32m+[m[32m     |  Methods inherited from _random.Random:[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  __getattribute__(self, name, /)[m
+[32m+[m[32m     |      Return getattr(self, name).[m
+[32m+[m[32m     |[m[41m  [m
+[32m+[m[32m     |  __new__(*args, **kwargs) from builtins.type[m
+[32m+[m[32m     |      Create and return a new object.  See help(type) for accurate signature.[m
+[32m+[m
+[32m+[m[32mFUNCTIONS[m
+[32m+[m[32m    betavariate(alpha, beta) method of Random instance[m
+[32m+[m[32m        Beta distribution.[m
+[32m+[m[41m        [m
+[32m+[m[32m        Conditions on the parameters are alpha > 0 and beta > 0.[m
+[32m+[m[32m        Returned values range between 0 and 1.[m
+[32m+[m[41m    [m
+[32m+[m[32m    choice(seq) method of Random instance[m
+[32m+[m[32m        Choose a random element from a non-empty sequence.[m
+[32m+[m[41m    [m
+[32m+[m[32m    choices(population, weights=None, *, cum_weights=None, k=1) method of Random instance[m
+[32m+[m[32m        Return a k sized list of population elements chosen with replacement.[m
+[32m+[m[41m        [m
+[32m+[m[32m        If the relative weights or cumulative weights are not specified,[m
+[32m+[m[32m        the selections are made with equal probability.[m
+[32m+[m[41m    [m
+[32m+[m[32m    expovariate(lambd) method of Random instance[m
+[32m+[m[32m        Exponential distribution.[m
+[32m+[m[41m        [m
+[32m+[m[32m        lambd is 1.0 divided by the desired mean.  It should be[m
+[32m+[m[32m        nonzero.  (The parameter would be called "lambda", but that is[m
+[32m+[m[32m        a reserved word in Python.)  Returned values range from 0 to[m
+[32m+[m[32m        positive infinity if lambd is positive, and from negative[m
+[32m+[m[32m        infinity to 0 if lambd is negative.[m
+[32m+[m[41m    [m
+[32m+[m[32m    gammavariate(alpha, beta) method of Random instance[m
+[32m+[m[32m        Gamma distribution.  Not the gamma function![m
+[32m+[m[41m        [m
+[32m+[m[32m        Conditions on the parameters are alpha > 0 and beta > 0.[m
+[32m+[m[41m        [m
+[32m+[m[32m        The probability distribution function is:[m
+[32m+[m[41m        [m
+[32m+[m[32m                    x ** (alpha - 1) * math.exp(-x / beta)[m
+[32m+[m[32m          pdf(x) =  --------------------------------------[m
+[32m+[m[32m                      math.gamma(alpha) * beta ** alpha[m
+[32m+[m[41m    [m
+[32m+[m[32m    gauss(mu, sigma) method of Random instance[m
+[32m+[m[32m        Gaussian distribution.[m
+[32m+[m[41m        [m
+[32m+[m[32m        mu is the mean, and sigma is the standard deviation.  This is[m
+[32m+[m[32m        slightly faster than the normalvariate() function.[m
+[32m+[m[41m        [m
+[32m+[m[32m        Not thread-safe without a lock around calls.[m
+[32m+[m[41m    [m
+[32m+[m[32m    getrandbits(...) method of Random instance[m
+[32m+[m[32m        getrandbits(k) -> x.  Generates an int with k random bits.[m
+[32m+[m[41m    [m
+[32m+[m[32m    getstate() method of Random instance[m
+[32m+[m[32m        Return internal state; can be passed to setstate() later.[m
+[32m+[m[41m    [m
+[32m+[m[32m    lognormvariate(mu, sigma) method of Random instance[m
+[32m+[m[32m        Log normal distribution.[m
+[32m+[m[41m        [m
+[32m+[m[32m        If you take the natural logarithm of this distribution, you'll get a[m
+[32m+[m[32m        normal distribution with mean mu and standard deviation sigma.[m
+[32m+[m[32m        mu can have any value, and sigma must be greater than zero.[m
+[32m+[m[41m    [m
+[32m+[m[32m    normalvariate(mu, sigma) method of Random instance[m
+[32m+[m[32m        Normal distribution.[m
+[32m+[m[41m        [m
+[32m+[m[32m        mu is the mean, and sigma is the standard deviation.[m
+[32m+[m[41m    [m
+[32m+[m[32m    paretovariate(alpha) method of Random instance[m
+[32m+[m[32m        Pareto distribution.  alpha is the shape parameter.[m
+[32m+[m[41m    [m
+[32m+[m[32m    randint(a, b) method of Random instance[m
+[32m+[m[32m        Return random integer in range [a, b], including both end points.[m
+[32m+[m[41m    [m
+[32m+[m[32m    random(...) method of Random instance[m
+[32m+[m[32m        random() -> x in the interval [0, 1).[m
+[32m+[m[41m    [m
+[32m+[m[32m    randrange(start, stop=None, step=1, _int=<class 'int'>) method of Random instance[m
+[32m+[m[32m        Choose a random item from range(start, stop[, step]).[m
+[32m+[m[41m        [m
+[32m+[m[32m        This fixes the problem with randint() which includes the[m
+[32m+[m[32m        endpoint; in Python this is usually not what you want.[m
+[32m+[m[41m    [m
+[32m+[m[32m    sample(population, k) method of Random instance[m
+[32m+[m[32m        Chooses k unique random elements from a population sequence or set.[m
+[32m+[m[41m        [m
+[32m+[m[32m        Returns a new list containing elements from the population while[m
+[32m+[m[32m        leaving the original population unchanged.  The resulting list is[m
+[32m+[m[32m        in selection order so that all sub-slices will also be valid random[m
+[32m+[m[32m        samples.  This allows raffle winners (the sample) to be partitioned[m
+[32m+[m[32m        into grand prize and second place winners (the subslices).[m
+[32m+[m[41m        [m
+[32m+[m[32m        Members of the population need not be hashable or unique.  If the[m
+[32m+[m[32m        population contains repeats, then each occurrence is a possible[m
+[32m+[m[32m        selection in the sample.[m
+[32m+[m[41m        [m
+[32m+[m[32m        To choose a sample in a range of integers, use range as an argument.[m
+[32m+[m[32m        This is especially fast and space efficient for sampling from a[m
+[32m+[m[32m        large population:   sample(range(10000000), 60)[m
+[32m+[m[41m    [m
+[32m+[m[32m    seed(a=None, version=2) method of Random instance[m
+[32m+[m[32m        Initialize internal state from hashable object.[m
+[32m+[m[41m        [m
+[32m+[m[32m        None or no argument seeds from current time or from an operating[m
+[32m+[m[32m        system specific randomness source if available.[m
+[32m+[m[41m        [m
+[32m+[m[32m        If *a* is an int, all bits are used.[m
+[32m+[m[41m        [m
+[32m+[m[32m        For version 2 (the default), all of the bits are used if *a* is a str,[m
+[32m+[m[32m        bytes, or bytearray.  For version 1 (provided for reproducing random[m
+[32m+[m[32m        sequences from older versions of Python), the algorithm for str and[m
+[32m+[m[32m        bytes generates a narrower range of seeds.[m
+[32m+[m[41m    [m
+[32m+[m[32m    setstate(state) method of Random instance[m
+[32m+[m[32m        Restore internal state from object returned by getstate().[m
+[32m+[m[41m    [m
+[32m+[m[32m    shuffle(x, random=None) method of Random instance[m
+[32m+[m[32m        Shuffle list x in place, and return None.[m
+[32m+[m[41m        [m
+[32m+[m[32m        Optional argument random is a 0-argument function returning a[m
+[32m+[m[32m        random float in [0.0, 1.0); if it is the default None, the[m
+[32m+[m[32m        standard random.random will be used.[m
+[32m+[m[41m    [m
+[32m+[m[32m    triangular(low=0.0, high=1.0, mode=None) method of Random instance[m
+[32m+[m[32m        Triangular distribution.[m
+[32m+[m[41m        [m
+[32m+[m[32m        Continuous distribution bounded by given lower and upper limits,[m
+[32m+[m[32m        and having a given mode value in-between.[m
+[32m+[m[41m        [m
+[32m+[m[32m        http://en.wikipedia.org/wiki/Triangular_distribution[m
+[32m+[m[41m    [m
+[32m+[m[32m    uniform(a, b) method of Random instance[m
+[32m+[m[32m        Get a random number in the range [a, b) or [a, b] depending on rounding.[m
+[32m+[m[41m    [m
+[32m+[m[32m    vonmisesvariate(mu, kappa) method of Random instance[m
+[32m+[m[32m        Circular data distribution.[m
+[32m+[m[41m        [m
+[32m+[m[32m        mu is the mean angle, expressed in radians between 0 and 2*pi, and[m
+[32m+[m[32m        kappa is the concentration parameter, which must be greater than or[m
+[32m+[m[32m        equal to zero.  If kappa is equal to zero, this distribution reduces[m
+[32m+[m[32m        to a uniform random angle over the range 0 to 2*pi.[m
+[32m+[m[41m    [m
+[32m+[m[32m    weibullvariate(alpha, beta) method of Random instance[m
+[32m+[m[32m        Weibull distribution.[m
+[32m+[m[41m        [m
+[32m+[m[32m        alpha is the scale parameter and beta is the shape parameter.[m
+[32m+[m
+[32m+[m[32mDATA[m
+[32m+[m[32m    __all__ = ['Random', 'seed', 'random', 'uniform', 'randint', 'choice',...[m
+[32m+[m
+[32m+[m[32mFILE[m
+[32m+[m[32m    c:\users\sara\appdata\local\programs\python\python36-32\lib\random.py[m
+[32m+[m
+[32m+[m
+[32m+[m[32m>>>[m[41m [m
+[32m+[m[41m	       [m
+[32m+[m[32m>>> help(random.randint)[m
+[32m+[m[41m	       [m
+[32m+[m[32mHelp on method randint in module random:[m
+[32m+[m
+[32m+[m[32mrandint(a, b) method of random.Random instance[m
+[32m+[m[32m    Return random integer in range [a, b], including both end points.[m
+[32m+[m
+[32m+[m[32m>>> import requests[m
+[32m+[m[41m	       [m
+[32m+[m[32mTraceback (most recent call last):[m
+[32m+[m[32m  File "<pyshell#20>", line 1, in <module>[m
+[32m+[m[32m    import requests[m
+[32m+[m[32mModuleNotFoundError: No module named 'requests'[m
+[32m+[m[32m>>>[m[41m [m
+[32m+[m[41m	       [m
+[32m+[m[32m>>>[m[41m [m
+[1mdiff --git a/gitignore/hello.py b/gitignore/hello.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..89634cd[m
+[1m--- /dev/null[m
+[1m+++ b/gitignore/hello.py[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mhello.py[m
+\ No newline at end of file[m
+[1mdiff --git a/hello.gitignore b/hello.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a3435ef[m
+[1m--- /dev/null[m
+[1m+++ b/hello.gitignore[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32ma="hello"[m
+[32m+[m[32mprint(a)[m
+\ No newline at end of file[m
+[1mdiff --git a/if b/if[m
+[1mnew file mode 100644[m
+[1mindex 0000000..dedf141[m
+[1m--- /dev/null[m
+[1m+++ b/if[m
+[36m@@ -0,0 +1,4 @@[m
+[32m+[m[32mif True:[m
+[32m+[m[32m   print "True"[m
+[32m+[m[32melse:[m
+[32m+[m[32m   print "False"[m
+\ No newline at end of file[m
+[1mdiff --git a/if.py b/if.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..dedf141[m
+[1m--- /dev/null[m
+[1m+++ b/if.py[m
+[36m@@ -0,0 +1,4 @@[m
+[32m+[m[32mif True:[m
+[32m+[m[32m   print "True"[m
+[32m+[m[32melse:[m
+[32m+[m[32m   print "False"[m
+\ No newline at end of file[m
+[1mdiff --git a/nes.py b/nes.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..450efd1[m
+[1m--- /dev/null[m
+[1m+++ b/nes.py[m
+[36m@@ -0,0 +1,4 @@[m
+[32m+[m[32mfor i in range(1,6):[m[41m  [m
+[32m+[m[32m    for j in range (1,i+1):[m[41m  [m
+[32m+[m[32m   print(i)[m[41m [m
+[32m+[m[32mprint[m
+[1mdiff --git a/nestedif.py b/nestedif.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..87f85fb[m
+[1m--- /dev/null[m
+[1m+++ b/nestedif.py[m
+[36m@@ -0,0 +1,4 @@[m
+[32m+[m
+[32m+[m[32mfor n in range(1,10):[m
+[32m+[m[32m for m in range(1,n+1):[m
+[32m+[m[32m     print(n),print(m)[m
+[1mdiff --git a/newline1.py b/newline1.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4a4143e[m
+[1m--- /dev/null[m
+[1m+++ b/newline1.py[m
+[36m@@ -0,0 +1,12 @@[m
+[32m+[m
+[32m+[m
+[32m+[m[32mdef newline():[m
+[32m+[m[32m    print()[m
+[32m+[m[32mdef threeline():[m
+[32m+[m[32m    newline()[m
+[32m+[m[32m    newline()[m
+[32m+[m[32m    newline()[m
+[32m+[m[32mprint("newline")[m
+[32m+[m[32mthreeline()[m
+[32m+[m[32mprint("second line")[m
+[32m+[m
+[1mdiff --git a/sam.py b/sam.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..36f001d[m
+[1m--- /dev/null[m
+[1m+++ b/sam.py[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32ma=10[m
+[32m+[m[32mprint(a)[m
+\ No newline at end of file[m
+[1mdiff --git a/time.py b/time.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7070cb7[m
+[1m--- /dev/null[m
+[1m+++ b/time.py[m
+[36m@@ -0,0 +1,3 @@[m
+[32m+[m[32mimport time[m
+[32m+[m[32mlocaltime=time.asclocaltime(time.localtime(time.time))[m
+[32m+[m[32mprint(localtime)[m
+[1mdiff --git a/tk30.py b/tk30.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..944c90b[m
+[1m--- /dev/null[m
+[1m+++ b/tk30.py[m
+[36m@@ -0,0 +1,14 @@[m
+[32m+[m[32mimport tkinter[m
+[32m+[m[32mimport tkinter.messagebox[m
+[32m+[m
+[32m+[m[32mtop = tkinter.Tk()[m
+[32m+[m[32mtop.minsize(100,200)[m
+[32m+[m
+[32m+[m[32mdef helloCallback():[m
+[32m+[m[32m   tkinter.messagebox.showinfo( "Hello Python", "python")[m
+[32m+[m[32mphoto= PhotoImage(file="images.jpg")[m
+[32m+[m
+[32m+[m[32mB = tkinter.Button(top,activebackground="black",activeforeground="blue",bg="green",fg="pink",state="active",image=photo,command = helloCallBack)[m
+[32m+[m
+[32m+[m[32mB.pack()[m
+[32m+[m[32mtop.mainloop()[m
+[1mdiff --git a/tkcan30.py b/tkcan30.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..758193a[m
+[1m--- /dev/null[m
+[1m+++ b/tkcan30.py[m
+[36m@@ -0,0 +1,14 @@[m
+[32m+[m[32mfrom tkinter import *[m
+[32m+[m
+[32m+[m[32mfrom tkinter import messagebox[m
+[32m+[m
+[32m+[m[32mtop = Tk()[m
+[32m+[m
+[32m+[m[32mC = Canvas(top, bg = "pink", height = 250, width = 300,bd=10)[m
+[32m+[m
+[32m+[m
+[32m+[m[32mcoord = 10, 50, 240, 500[m
+[32m+[m
+[32m+[m[32mline = C.create_line(10,10,200,200,fill = 'white')[m
+[32m+[m[32mC.pack()[m
+[32m+[m[32mtop.mainloop()[m
+[1mdiff --git a/tkcheck.py b/tkcheck.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1c0c979[m
+[1m--- /dev/null[m
+[1m+++ b/tkcheck.py[m
+[36m@@ -0,0 +1,16 @@[m
+[32m+[m[32mfrom tkinter import *[m
+[32m+[m
+[32m+[m[32mimport tkinter[m
+[32m+[m[41m    [m
+[32m+[m[32mtop = Tk()[m
+[32m+[m[32mCheckVar1 = IntVar()[m
+[32m+[m[32mCheckVar2 = IntVar()[m
+[32m+[m[32mC1 = Checkbutton(top, text = "Music", variable = CheckVar1, \[m
+[32m+[m[32m                 onvalue = 1, offvalue = 0, height=5, \[m
+[32m+[m[32m                 width = 20, )[m
+[32m+[m[32mC2 = Checkbutton(top, text = "Video", variable = CheckVar2, \[m
+[32m+[m[32m                 onvalue = 1, offvalue = 0, height=5, \[m
+[32m+[m[32m                 width = 20)[m
+[32m+[m[32mC1.pack()[m
+[32m+[m[32mC2.pack()[m
+[32m+[m[32mtop.mainloop()[m
+[1mdiff --git a/tkent.py b/tkent.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..8bc2c2d[m
+[1m--- /dev/null[m
+[1m+++ b/tkent.py[m
+[36m@@ -0,0 +1,10 @@[m
+[32m+[m[32mfrom tkinter import *[m
+[32m+[m[32mimport tkinter[m
+[32m+[m
+[32m+[m[32mtop = Tk()[m
+[32m+[m[32mL1 = Label(top, text="User Name")[m
+[32m+[m[32mL1.pack( side = LEFT)[m
+[32m+[m[32mE1 = Entry(top, bd =5)[m
+[32m+[m[32mE1.pack(side = RIGHT)[m
+[32m+[m
+[32m+[m[32mtop.mainloop()[m
+[1mdiff --git a/workfor.py b/workfor.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1164957[m
+[1m--- /dev/null[m
+[1m+++ b/workfor.py[m
+[36m@@ -0,0 +1,30 @@[m
+[32m+[m[32m##s="*"[m
+[32m+[m[32m##for i in range (1,6):[m[41m  [m
+[32m+[m[32m##        print( s * i )[m
+[32m+[m[32m##print[m
+[32m+[m
+[32m+[m[32m##dict={}[m
+[32m+[m[32m##a=input("enter the name of the student: ")[m
+[32m+[m[32m##b=int(input("enter the maths mark : "))[m
+[32m+[m[32m##c=int(input("enter the science mark : "))[m
+[32m+[m[32m##dict['percentage']=89[m
+[32m+[m[32m##dict["num"]=1,2,4,5[m
+[32m+[m[32m##dict['name']=a[m
+[32m+[m[32m##dict['maths']=b[m
+[32m+[m[32m##dict["science"]=c[m
+[32m+[m[32m##print(dict)[m
+[32m+[m[32m##print(dict.get('num'))[m
+[32m+[m[32m##dict.pop('percentage')[m
+[32m+[m[32m##print(dict)[m
+[32m+[m[32m##dict.popitem()[m
+[32m+[m[32m##print(dict)[m
+[32m+[m[32m##del dict["name"][m
+[32m+[m[32m##print(dict)[m
+[32m+[m[32m##dict.clear()[m
+[32m+[m[32m##print(dict)[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32mstar={x:x*x for x in range(26)}[m
+[32m+[m[32mprint(star)[m
